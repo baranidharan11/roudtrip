@@ -1,0 +1,2452 @@
+body {
+  font-family: "DM Sans", Sans-serif !important;
+}
+ul,
+ul li {
+  list-style: none !important;
+  margin: 0;
+  padding: 0;
+}
+.section-wrap {
+  padding: 40px 0;
+}
+.section-wrap-top {
+  padding-top: 40px;
+}
+.section-wrap-btm {
+  padding-bottom: 40px;
+}
+.text-center {
+  text-align: center;
+}
+.mb0 {
+  margin-bottom: 0 !important;
+}
+.mb20 {
+  margin-bottom: 20px !important;
+}
+.clearfix {
+  overflow: auto;
+}
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+a,
+img,
+button:focus {
+  outline: 0 !important;
+}
+a:focus,
+img:focus {
+  text-decoration: none !important;
+}
+body,
+html {
+  overflow-x: hidden;
+}
+
+/*Menu */
+.hfe-nav-menu a.hfe-menu-item,
+.hfe-nav-menu a.hfe-sub-menu-item {
+  color: #333;
+  font-weight: 500;
+  font-family: "DM Sans", Sans-serif;
+  font-size: 16px;
+}
+.hfe-nav-menu li.current_page_item a {
+  font-weight: 700;
+  position: relative;
+}
+.hfe-nav-menu li.current_page_item a:before {
+  position: absolute;
+  content: " ";
+  width: 80%;
+  left: 10%;
+  bottom: 0;
+  height: 4px;
+  border-radius: 9px;
+  background-color: #ed1e24;
+  opacity: 1 !important;
+}
+.hfe-nav-menu a.hfe-sub-menu-item.hfe-sub-menu-item-active {
+  background-color: #f4f5fa;
+  font-weight: 700;
+}
+.hfe-nav-menu a.hfe-sub-menu-item:before {
+  display: none;
+}
+body.page-id-1451 #menu-item-1719,
+body.page-id-861 #menu-item-1719,
+body.page-id-1419 #menu-item-1719,
+body.page-id-1430 #menu-item-1719,
+body.page-id-1243 #menu-item-1719,
+body.page-id-1510 #menu-item-1719,
+body.page-id-1451 #menu-item-1719,
+body.page-id-1472 #menu-item-1719,
+body.page-id-1568 #menu-item-1719,
+body.page-id-1543 #menu-item-1719 {
+  position: relative;
+}
+body.page-id-1451 #menu-item-1719:before,
+body.page-id-861 #menu-item-1719:before,
+body.page-id-1419 #menu-item-1719:before,
+body.page-id-1430 #menu-item-1719:before,
+body.page-id-1243 #menu-item-1719:before,
+body.page-id-1510 #menu-item-1719:before,
+body.page-id-1451 #menu-item-1719:before,
+body.page-id-1472 #menu-item-1719:before,
+body.page-id-1568 #menu-item-1719:before,
+body.page-id-1543 #menu-item-1719:before {
+  position: absolute;
+  content: " ";
+  width: 80%;
+  left: 10%;
+  bottom: 0;
+  height: 4px;
+  border-radius: 9px;
+  background-color: #ed1e24;
+  opacity: 1 !important;
+}
+/* body.page-id-1451 #menu-item-1719 a.hfe-menu-item{font-weight:700;} */
+.has-background-white
+  .site
+  a:focus:not(.wp-block-button__link):not(.wp-block-file__button) {
+  background: transparent !important;
+  color: #333;
+}
+.hfe-nav-menu li#menu-item-1719 a:before {
+  display: none;
+}
+
+.fixed-slider {
+  padding: 0 20px;
+}
+.fixed-slider .slick-slide {
+  padding: 30px 25px;
+}
+.fixed-slider .item-bx {
+  border-radius: 26px;
+  -webkit-box-shadow: 0px 4px 20px 0px rgba(2, 30, 64, 0.5);
+  -moz-box-shadow: 0px 4px 20px 0px rgba(2, 30, 64, 0.5);
+  box-shadow: 0px 4px 20px 0px rgba(2, 30, 64, 0.5);
+}
+.fixed-slider .item-bx figure {
+  margin: 0;
+}
+.fixed-slider .item-bx .item-desc {
+  padding: 0 20px 25px;
+}
+.fixed-slider .item-bx .item-desc h3 {
+  padding-top: 10px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #666666;
+  color: #303394;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "DM Sans", Sans-serif;
+  min-height: 72px;
+}
+.fixed-slider .item-bx .item-desc p {
+  padding-bottom: 10px;
+  color: #737373;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "DM Sans", Sans-serif;
+}
+.fixed-slider .item-bx .item-desc p strong {
+  color: #545454;
+  font-weight: 700;
+}
+.fixed-slider .item-bx .item-desc p.price {
+  color: #646974;
+  font-size: 14px;
+}
+.fixed-slider .item-bx .item-desc p.price span {
+  color: #ed1e24;
+  font-size: 22px;
+  font-weight: 700;
+}
+.fixed-slider .item-bx .item-desc ul {
+  display: block;
+  padding: 15px 0 10px !important;
+}
+.fixed-slider .item-bx .item-desc ul li {
+  display: inline-block;
+  width: 48%;
+  color: #646974;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "DM Sans", Sans-serif;
+  position: relative;
+  padding-left: 32px !important;
+}
+.fixed-slider .item-bx .item-desc ul li:before {
+  position: absolute;
+  content: "";
+  width: 23px;
+  height: 23px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+  left: 0;
+}
+.fixed-slider .item-bx .item-desc ul li.dt:before {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_calendar.png");
+}
+.fixed-slider .item-bx .item-desc ul li.day:before {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_time.png");
+}
+.fixed-slider .item-bx .item-desc .btn-primary {
+  display: block;
+}
+.fixed-slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  background-color: transparent !important;
+  background-repeat: no-repeat;
+  background-position: left center;
+  width: 19px;
+  height: 35px;
+  background-color: transparent;
+  border: 0;
+  text-indent: -9999em;
+  z-index: 1;
+  padding: 0;
+}
+.fixed-slider .slick-prev {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/arrow-prev.png");
+  left: 0;
+}
+.fixed-slider .slick-next {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/arrow-next.png");
+  right: 0;
+  background-position: right center;
+}
+/* .fixed-slider .slick-prev{left:-30px}
+.fixed-slider .slick-next{right:-30px} */
+
+.travel-slider {
+  margin-bottom: 70px;
+}
+.travel-slider .item-img {
+  padding: 0 10px;
+}
+.travel-slider > ul.slick-dots {
+  text-align: center;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -45px;
+}
+.travel-slider > ul.slick-dots > li {
+  display: inline-block;
+  padding: 0 5px !important;
+}
+.travel-slider > ul.slick-dots > li button {
+  background: #ececec !important;
+  border-radius: 4px;
+  text-indent: -99999em;
+  width: 14px;
+  height: 14px;
+  padding: 0 !important;
+}
+.travel-slider > ul.slick-dots > li.slick-active button {
+  background: #aeaeae !important;
+}
+
+.btn-primary {
+  border: 1px solid #fff;
+  background: #ed1e24;
+  text-align: center;
+  padding: 10px 15px;
+  border-radius: 5px;
+  color: #fff !important;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "DM Sans", Sans-serif;
+  display: inline-block;
+  transition: all 0.5s;
+}
+.btn-primary:hover,
+.btn-primary:focus {
+  border: 1px solid #ed1e24;
+  background: #fff;
+  color: #ed1e24 !important;
+}
+.btn-primary:hover a,
+.btn-primary:focus a {
+  background: #fff;
+  color: #ed1e24 !important;
+}
+.forminator-ui.forminator-custom-form[data-design="default"]
+  .forminator-button {
+  border-radius: 4px !important;
+  padding: 10px 15px;
+  font-family: "DM Sans", Sans-serif !important;
+}
+.btn-wrap {
+  display: block;
+}
+
+.tab {
+  margin: 0 auto;
+  width: 90%;
+  border: 1px soid #e6e6e6;
+}
+.tab .tab-hdg {
+  text-align: center;
+}
+.tab .tab-hdg ul {
+  display: inline-flex;
+  text-align: center;
+  border: 1px solid #ed1e24;
+  padding: 10px !important;
+  margin: 0 auto !important;
+  align-items: center;
+  width: auto;
+  background: #fff;
+  position: relative;
+  border-radius: 5px;
+}
+.tab .tab-hdg ul li {
+  position: relative;
+  border-radius: 5px;
+  padding: 10px 20px 10px 52px;
+  border: 1px solid #ed1e24;
+  list-style: none;
+  transition: all 0.5s;
+  cursor: pointer;
+  text-align: center;
+  font-family: "DM Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  color: #ed1e24;
+  margin: 0 15px;
+}
+.tab .tab-hdg ul li:before {
+  position: absolute;
+  content: "";
+  left: 12px;
+  background: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_tab.png")
+    0 0 no-repeat;
+  width: 31px;
+  height: 36px;
+  background-size: contain;
+}
+.tab .tab-hdg ul li.fadeIn:before {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_tab-act.png");
+}
+.tab .tab-hdg ul li.fadeIn {
+  background: #ed1e24;
+  color: #fff;
+}
+/* .tab .tab-hdg ul.dubai{width:1210px} */
+.tab .tab-cnt {
+  border: 1px solid #ed1e24;
+  transition: all 0.5s;
+  padding: 80px 25px 30px;
+  border-radius: 5px;
+  margin-top: -35px;
+}
+.tab .tab-cnt.sinl {
+  padding-top: 40px;
+}
+.tab .tab-cnt .wrap {
+  display: block;
+  margin-left: -20px;
+  margin-right: -20px;
+}
+.tab .tab-cnt .cnt {
+  display: none;
+  transition: all 0.5s;
+}
+.tab .tab-cnt .cnt.fadeIn {
+  display: block;
+}
+.tab .tab-cnt .wrap .clm {
+  padding-left: 30px;
+  padding-right: 30px;
+  float: left;
+}
+.tab .tab-cnt .wrap .clm.clm1 {
+  width: 65%;
+}
+.tab .tab-cnt .wrap .clm.clm2 {
+  width: 35%;
+}
+.tab .tab-cnt p {
+  color: #021e40;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+.tab .tab-cnt h3 {
+  color: #303394;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.tab .tab-cnt ul li {
+  position: relative;
+  color: #021e40;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "DM Sans", Sans-serif;
+  padding: 0 0 20px 44px;
+}
+.tab .tab-cnt ul li span {
+  font-weight: 500;
+}
+.tab .tab-cnt ul li:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 3px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  width: 26px;
+  height: 26px;
+}
+.tab .tab-cnt ul.tick li:before {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_list-tick.png");
+}
+.tab .tab-cnt ul.cross li:before {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_list-cross.png");
+}
+.tab .tab-cnt ul.notes li:before {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_list-notes.png");
+  width: 27px;
+  height: 28px;
+}
+.tab .tab-cnt .line {
+  line-height: 1px;
+  height: 1px;
+  width: 100%;
+  background-color: #6a6969;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  opacity: 0.6;
+}
+.tab .tab-cnt .btn-primary {
+  margin-bottom: 20px;
+  padding: 0;
+}
+.tab .tab-cnt .btn-primary a {
+  color: #fff;
+  padding: 10px 100px;
+  display: block;
+}
+/* .tab .tab-cnt .btn-primary:hover a,.tab .tab-cnt .btn-primary a:hover{color:#ED1E24;} */
+
+.fadeIn {
+  animation: fadein 2500ms;
+}
+.fadeOut {
+  animation: fadeout 2500ms;
+}
+
+@keyframes fadein {
+  from: {
+    opacity: 0;
+  }
+  to: {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeout {
+  from : {
+    opacity: 1;
+  }
+  to: {
+    opacity: 0;
+  }
+}
+
+.accordion {
+  width: 100%;
+  margin: 20px auto 40px;
+}
+.accordion .acc-wrap {
+  -webkit-box-shadow: 0px 6px 12px -2px rgba(50, 50, 93, 0.25);
+  -moz-box-shadow: 0px 6px 12px -2px rgba(50, 50, 93, 0.25);
+  box-shadow: 0px 6px 12px -2px rgba(50, 50, 93, 0.25);
+  padding: 25px;
+}
+.accordion .acc-wrap > h3 {
+  color: #021e40 !important;
+  font-size: 19px !important;
+  font-weight: 500 !important;
+  margin-bottom: 0;
+  font-family: "DM Sans", Sans-serif;
+}
+.accordion-header {
+  cursor: pointer;
+  margin: 0;
+  position: relative;
+}
+.accordion-content {
+  display: none;
+}
+.accordion-content p {
+  color: #021e40;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 38px;
+  padding-top: 15px;
+  font-family: "DM Sans", Sans-serif;
+}
+.arrow {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 8px;
+  height: 8px;
+}
+.arrow.down {
+  border: solid #ed1e24;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(45deg);
+}
+.arrow.up {
+  border: solid #ed1e24;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  padding: 3px;
+  transform: rotate(-135deg);
+}
+
+.desti-slider {
+  margin-bottom: 20px;
+}
+/* .desti-slider .item-img{margin: 0 10px} */
+.desti-slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  margin-top: -10px;
+  background-color: transparent !important;
+  background-repeat: no-repeat;
+  background-position: left center;
+  width: 19px;
+  height: 35px;
+  background-color: transparent;
+  border: 0;
+  text-indent: -9999em;
+  z-index: 1;
+}
+.desti-slider .slick-prev {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/arrow-prev.png");
+  left: -28px;
+}
+.desti-slider .slick-next {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/arrow-next.png");
+  right: -28px;
+  background-position: right center;
+}
+
+.form {
+  margin-top: 30px;
+  padding: 25px;
+  border-radius: 20px;
+  -webkit-box-shadow: 0px 5px 30px 0px rgba(2, 30, 64, 0.5);
+  -moz-box-shadow: 0px 5px 30px 0px rgba(2, 30, 64, 0.5);
+  box-shadow: 0px 5px 30px 0px rgba(2, 30, 64, 0.5);
+  margin-bottom: 30px;
+}
+.testi-wrap {
+  background: #454c9a
+    url("https://roundtrip.in/wp-content/uploads/2024/09/bg_testimonial.png")
+    no-repeat center bottom;
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  background-size: cover;
+  padding: 25px 30px;
+  border-radius: 20px;
+}
+.testi-wrap .testi-slider {
+  padding: 0 10px;
+}
+.testi-wrap .testi-slider p {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 15px;
+}
+.testi-wrap .testi-slider p strong {
+  font-weight: 700;
+  text-align: left;
+}
+.testi-wrap .testi-slider p span {
+  font-size: 12px;
+  text-align: left;
+  display: block;
+  line-height: 12px;
+}
+.testi-wrap .testi-slider .author-wrap {
+  display: flex;
+  align-items: center;
+}
+.testi-wrap .testi-slider .author-wrap p {
+  text-align: left;
+  min-height: auto;
+}
+.testi-wrap .testi-slider .author {
+  width: 65%;
+}
+/*.testi-wrap .testi-slider .author p {padding-left:10px}*/
+.testi-wrap .testi-slider .travel {
+  width: 35%;
+}
+.testi-wrap h3 {
+  text-align: left;
+  color: #fff !important;
+  font-family: "DM Sans", Sans-serif;
+}
+.testi-slider .slick-arrow {
+  position: absolute;
+  top: 20%;
+  margin-top: -10px;
+  background-color: transparent !important;
+  background-repeat: no-repeat;
+  background-position: left center;
+  width: 9px;
+  height: 15px;
+  background-color: transparent;
+  border: 0;
+  text-indent: -9999em;
+  z-index: 1;
+}
+.testi-slider .slick-prev {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/arrow-prev2.png");
+  left: -10px;
+}
+.testi-slider .slick-next {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/arrow-next2.png");
+  right: -10px;
+  background-position: right center;
+}
+
+.explore-world {
+  background: #2a375c
+    url("https://roundtrip.in/wp-content/uploads/2024/09/bg_explore.png")
+    no-repeat 0 0;
+  width: 100%;
+  height: auto;
+  margin-bottom: 30px;
+  background-size: contain;
+  padding: 18px 25px !important;
+  border-radius: 20px;
+}
+.explore-world h3 {
+  color: #fff !important;
+  font-family: "DM Sans", Sans-serif;
+  margin-bottom: 15px;
+}
+.explore-world p {
+  color: #fff !important;
+  font-size: 16px !important;
+  line-height: 26px !important;
+  margin-bottom: 20px;
+}
+.explore-world .btn-wrap {
+  display: flex;
+  align-items: center;
+}
+.explore-world .btn-check {
+  background: #fff;
+  border-radius: 5px;
+  padding: 6px 10px;
+}
+.explore-world .btn-check a {
+  color: #242d7e;
+  font-size: 12px;
+  font-weight: 700;
+  text-decoration: none;
+}
+.explore-world a.terms {
+  color: #d2d2d2;
+  font-size: 11px;
+  font-weight: 400;
+  text-decoration: underline;
+  margin: 0 0 0 50px;
+  transition: all 0.5s ease-in-out;
+}
+.explore-world a.terms:hover {
+  text-decoration: none;
+}
+
+.why-choose {
+  background: url("https://roundtrip.in/wp-content/uploads/2024/11/bg_why-choose2.png")
+    no-repeat 0 0;
+  width: 100%;
+  height: 288px;
+  margin-bottom: 30px;
+  background-size: contain;
+  padding-top: 22px;
+}
+.why-choose h3 {
+  color: #fff !important;
+  margin-bottom: 40px !important;
+  text-align: left;
+  font-size: 22px !important;
+  padding-left: 30px;
+}
+.why-choose .wrap2 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.why-choose .wrap2 .clm {
+  width: 50%;
+}
+.why-choose p {
+  color: #fff !important;
+  font-size: 34px !important;
+  font-weight: 600 !important;
+  text-align: left;
+}
+.why-choose p span {
+  font-size: 13px !important;
+  display: block;
+}
+
+.package-desc .hdg {
+  float: left;
+  width: 60%;
+}
+.package-desc .amt-details {
+  float: left;
+  width: 40%;
+  text-align: right;
+}
+.package-desc .amt-details h6 {
+  color: #737373;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: right;
+  font-family: "DM Sans", Sans-serif;
+}
+.package-desc .amt-details h6:first-child {
+  padding-right: 33px;
+}
+.package-desc .amt-details h5 {
+  color: #646464;
+  font-size: 22px;
+  font-weight: 400;
+  text-align: right;
+  font-family: "DM Sans", Sans-serif;
+  padding: 8px 0;
+}
+.package-desc .amt-details h5 span {
+  color: #545454;
+  font-weight: 700;
+}
+.package-desc .amt-details h4 {
+  color: #ed1e24;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: right;
+  font-family: "DM Sans", Sans-serif;
+  line-height: 34px;
+}
+.package-desc .amt-details h4 span {
+  font-size: 16px;
+  color: #737373;
+  font-weight: 400;
+}
+.package-desc .hdg h2 {
+  color: #303394;
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 5px;
+}
+.package-desc .hdg h2 span {
+  color: #02b129;
+  font-size: 12px;
+  border-radius: 4px;
+  border: 1px solid #02b129;
+  padding: 2px 8px;
+  vertical-align: text-bottom;
+}
+.package-desc .hdg .share a {
+  position: relative;
+  padding-left: 30px;
+  color: #737373;
+  font-size: 20px;
+}
+.package-desc .hdg .share a:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_whatsapp.png")
+    no-repeat 0 0;
+  background-size: contain;
+  width: 25px;
+  height: 25px;
+}
+.forminator-ui#forminator-module-1007.forminator-design--default
+  .forminator-input,
+.forminator-ui#forminator-module-1334.forminator-design--default
+  .forminator-input {
+  border-color: #e9e9e9 !important;
+}
+.forminator-ui.forminator-design--default .forminator-input,
+.forminator-ui.forminator-design--default .forminator-input {
+  border-color: #e9e9e9 !important;
+}
+
+.modal,
+#terms {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.modal-content,
+.terms-content {
+  position: relative;
+  margin: auto;
+  padding: 20px 20px 40px 20px;
+  width: 90%;
+  top: 5%;
+  bottom: 10%;
+  background-color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  border-radius: 19px;
+}
+.modal .close,
+#terms .close {
+  position: absolute;
+  right: 20px;
+  top: 0;
+  font-size: 38px;
+  cursor: pointer;
+  z-index: 1000;
+  color: #000;
+}
+.modal .close,
+#terms .close img {
+  width: 25px;
+}
+.terms-content {
+  width: 750px;
+}
+#terms {
+  z-index: 1001;
+}
+#terms .close {
+  z-index: 1001;
+}
+#terms h3 {
+  margin-bottom: 30px;
+}
+#terms ul li {
+  position: relative;
+  color: #021e40;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "DM Sans", Sans-serif;
+  padding: 0 0 20px 33px;
+}
+#terms ul.notes li:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 3px;
+  background: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_list-notes.png")
+    no-repeat 0 0;
+  width: 22px;
+  height: 28px;
+  background-size: contain;
+}
+
+.forminator-ui#forminator-module-1334.forminator-design--default
+  .forminator-select2
+  + .forminator-select
+  .selection
+  .select2-selection--single[role="combobox"],
+.forminator-ui#forminator-module-228.forminator-design--default
+  .forminator-input {
+  border-color: #e9e9e9 !important;
+}
+.forminator-select-dropdown-container--open
+  .forminator-custom-form-1334.forminator-dropdown--default
+  .select2-results
+  .select2-results__options
+  .select2-results__option.select2-results__option--selected {
+  background-color: #f5f5f5;
+  color: #333;
+}
+#forminator-module-1334 .forminator-row-last {
+  margin-bottom: 0;
+}
+
+.modal-departures .clm {
+  float: left;
+}
+.modal-departures .clm.clm1 {
+  width: 70%;
+  padding-right: 20px;
+  padding-top: 50px;
+}
+.modal-departures .clm.clm2 {
+  width: 30%;
+  padding-left: 15px;
+  padding-top: 15px;
+}
+.modal-departures .form {
+  width: 94%;
+}
+.modal-departures .explore-world {
+  width: 94%;
+  height: 286px;
+}
+.modal-departures .why-choose {
+  width: 94%;
+  height: 286px;
+  padding-top: 20px;
+  margin-bottom: 0;
+  padding-left: 37px;
+}
+.modal-departures .why-choose h3 {
+  padding-left: 0;
+  margin-bottom: 22px !important;
+}
+.modal-departures .explore-world a.terms {
+  margin: 0 0 0 50px;
+}
+.modal-departures .clm.clm1 h3 {
+  font-size: 24px;
+  color: #303394;
+  font-weight: 700;
+  font-family: "DM Sans", Sans-serif;
+  margin-bottom: 35px;
+}
+.modal-departures .clm.clm1 ul.pack {
+  margin-bottom: 30px;
+  display: block;
+  text-align: center;
+}
+.modal-departures .clm.clm1 ul.pack li {
+  position: relative;
+  font-size: 17px;
+  color: #041827;
+  font-weight: 700;
+  padding-left: 95px;
+  padding-right: 45px;
+  display: inline-block;
+}
+.modal-departures .clm.clm1 ul.pack li:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 1px;
+  background-color: #000;
+}
+.modal-departures .clm.clm1 ul.pack li:before {
+  position: absolute;
+  content: "";
+  left: 40px;
+  top: 50%;
+  background-repeat: no-repeat;
+  background-position: 0 0;
+  background-size: contain;
+  transform: translateY(-50%);
+}
+.modal-departures .clm.clm1 ul.pack li.crusie:before {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_crusie.png");
+  width: 43px;
+  height: 43px;
+}
+.modal-departures .clm.clm1 ul.pack li.veg:before {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_pure-veg.png");
+  width: 43px;
+  height: 44px;
+}
+.modal-departures .clm.clm1 ul.pack li.sight:before {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_sight-seeings.png");
+  width: 40px;
+  height: 42px;
+}
+.modal-departures .clm.clm1 ul.pack li.enjoy:before {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_enjoy.png");
+  width: 43px;
+  height: 35px;
+}
+.modal-departures .clm.clm1 ul.pack li.abu:before {
+  background-image: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_abu-dhabi.png");
+  width: 43px;
+  height: 43px;
+}
+.modal-departures .clm.clm1 ul.pack li:first-child:after {
+  display: none;
+}
+.modal-departures .package-highlights {
+  text-align: center;
+}
+.modal-departures .package-highlights .btn-primary {
+  padding: 5px 50px;
+  font-size: 15px;
+  font-weight: 400;
+  display: inline-block;
+}
+.modal-departures .departure-top {
+  padding-bottom: 20px;
+}
+.modal-departures .departure-top .isClm {
+  float: left;
+}
+.modal-departures .departure-top .isClm.clm1 {
+  width: 30%;
+}
+.modal-departures .departure-top .isClm.clm2 {
+  width: 45%;
+}
+.modal-departures .departure-top .isClm.clm3 {
+  width: 25%;
+}
+.modal-departures .departure-top h3 {
+  margin-bottom: 0;
+  line-height: 28px;
+}
+.modal-departures .departure-top h3 span {
+  color: #ed1e24;
+  font-family: "Italianno", Sans-serif;
+  font-size: 36px;
+  font-weight: 400;
+  display: block;
+  font-style: italic;
+}
+.modal-departures .departure-top p {
+  font-size: 16px;
+  color: #021e40;
+  font-weight: 400;
+  font-family: "DM Sans", Sans-serif;
+}
+.modal-departures .departure-top .amt-details {
+  float: none;
+  width: 100%;
+  text-align: right;
+}
+.modal-departures .departure-top .amt-details h6 {
+  color: #000;
+  font-size: 12px;
+  font-weight: 400;
+  text-align: right;
+  font-family: "DM Sans", Sans-serif;
+}
+.modal-departures .departure-top .amt-details h6:first-child {
+  padding-right: 33px;
+}
+.modal-departures .departure-top .amt-details h5 {
+  color: #646464;
+  font-size: 17px;
+  font-weight: 400;
+  text-align: right;
+  font-family: "DM Sans", Sans-serif;
+  padding: 8px 0;
+}
+.modal-departures .departure-top .amt-details h5 span {
+  color: #545454;
+  font-weight: 700;
+}
+.modal-departures .departure-top .amt-details h4 {
+  color: #ed1e24;
+  font-size: 30px;
+  font-weight: 700;
+  text-align: right;
+  font-family: "DM Sans", Sans-serif;
+  line-height: 34px;
+}
+.modal-departures .departure-top .amt-details h4 span {
+  font-size: 16px;
+  color: #737373;
+  font-weight: 400;
+}
+.modal-departures .departure-top .isClm.clm1 .share2 a {
+  position: relative;
+  padding-left: 30px;
+  color: #208c1d;
+  font-size: 22px;
+  font-weight: 400;
+  font-family: "DM Sans", Sans-serif;
+}
+.modal-departures .departure-top .isClm.clm1 .share2 a:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 3px;
+  background: url("https://roundtrip.in/wp-content/uploads/2025/01/ic_whatsapp2.png")
+    no-repeat 0 0;
+  background-size: contain;
+  width: 20px;
+  height: 20px;
+}
+.modal-departures .visa-btm {
+  margin-bottom: 40px;
+}
+.modal-departures .visa-btm .vClm {
+  float: left;
+  width: 20%;
+  padding-left: 15px;
+}
+.modal-departures .visa-btm .vClm:first-child {
+  padding-left: 0;
+}
+.modal-departures .visa-btm .vClm p {
+  color: #000;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+  font-family: "DM Sans", Sans-serif;
+}
+.modal-departures .visa-btm .vClm p span {
+  font-weight: 700;
+  display: block;
+  border: 2px solid #049d53;
+  border-radius: 5px;
+  padding: 8px;
+  margin-top: 5px;
+}
+.modal-departures .visa-btm .vClm p a.btn {
+  font-weight: 700;
+  display: block;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: #ed1e24;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  font-family: "DM Sans", Sans-serif;
+  margin-top: 5px;
+}
+.modal-departures .get-visa .dp {
+  display: block;
+}
+.modal-departures .get-visa .mbl {
+  display: none;
+}
+.modal-departures .visa-smart .dp {
+  display: block;
+}
+.modal-departures .visa-smart .mbl {
+  display: none;
+}
+.modal-departures .visaSmart-ban {
+  margin-bottom: 30px;
+}
+.modal-departures .visaSmart-ban figure img {
+  width: 100%;
+  padding-right: 20px;
+}
+
+.modal-departures .item-img {
+  float: left;
+  display: flex;
+  margin-bottom: 30px;
+}
+.modal-departures .item-img figure {
+  width: 70%;
+}
+.modal-departures .item-img .descr {
+  background-color: #041827;
+  padding: 25px 20px 0 15px;
+  width: 30%;
+  border-top-right-radius: 13px;
+  border-bottom-right-radius: 13px;
+}
+.modal-departures .item-img .descr h4 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "DM Sans", Sans-serif;
+  margin-bottom: 20px;
+}
+.modal-departures .item-img .descr p {
+  color: #fff;
+  font-size: 14px;
+  font-weight: 400;
+  font-family: "DM Sans", Sans-serif;
+  margin-bottom: 25px;
+}
+.modal-departures .clm.clm1 ul.tick {
+  margin-bottom: 30px;
+  display: block;
+}
+.modal-departures .clm.clm1 ul.tick li {
+  position: relative;
+  font-size: 14px;
+  color: #b4babe;
+  font-weight: 400;
+  padding-left: 36px;
+  display: block;
+  text-align: left;
+  margin-bottom: 12px;
+}
+.modal-departures .clm.clm1 ul.tick li:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 50%;
+  background: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_list-tick.png")
+    no-repeat 0 0;
+  background-size: contain;
+  transform: translateY(-50%);
+  width: 21px;
+  height: 21px;
+}
+.modal-departures .item-img .descr h5 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "DM Sans", Sans-serif;
+  margin-bottom: 20px;
+  text-align: center;
+  line-height: 25px;
+}
+.modal-departures .item-img .descr h5 span {
+  font-size: 12px;
+  display: block;
+}
+.modal-departures .item-img .descr .share a {
+  position: relative;
+  padding-left: 30px;
+  color: #fff;
+  font-size: 20px;
+}
+.modal-departures .item-img .descr .share a:before {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 3px;
+  background: url("https://roundtrip.in/wp-content/uploads/2024/09/ic_whatsapp-wht.png")
+    no-repeat 0 0;
+  background-size: contain;
+  width: 18px;
+  height: 19px;
+}
+.modal-departures .item-img .descr .btn-secondary {
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 15px;
+  display: inline-block;
+}
+.modal-departures .item-img .descr .btn-secondary a {
+  color: #041827;
+  font-size: 13px;
+  font-weight: 700;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding: 6px 10px;
+  display: block;
+}
+.in-descr {
+  text-align: center;
+}
+.nav-tabs-mbl {
+  display: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  position: relative;
+  border: 1px solid #ed1e24;
+}
+.nav-tabs.mobile-dropdown {
+  background-color: #ed1e24;
+  border-radius: 5px;
+  padding: 5px 20px;
+  color: #fff;
+  font-weight: 600;
+  text-align: left;
+  margin: 0 auto;
+  width: 90%;
+  font-size: 16px;
+  border: 0;
+}
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+select {
+  background-image: url("https://tawazon.bleap.dev/wp-content/uploads/2024/07/select-arrow.png") !important;
+  background-size: 26px !important;
+  background-position: right 10px center;
+}
+#aboutUs .tab-content {
+  width: auto;
+}
+
+.tab-content > .active {
+  display: block;
+}
+.tab-content > .tab-pane {
+  display: none;
+}
+.fade {
+  transition: opacity 0.15s linear;
+}
+.fade:not(.show) {
+  opacity: 0;
+}
+.card h1 {
+  font-size: 36px;
+  margin-bottom: 0;
+  left: 20px;
+  bottom: 20px;
+  position: absolute;
+  padding-right: 40px;
+  color: #fff;
+  text-shadow: 0px 2.36px 2.36px rgba(237, 30, 36, 0.5);
+}
+.card h1:after {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  content: "";
+  background: url("https://roundtrip.in/wp-content/uploads/2024/10/go-arrow.svg")
+    no-repeat right center;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-50%);
+  background-size: contain;
+}
+.card img {
+  max-width: 100%;
+  height: auto;
+  display: block; /* Removes bottom gap */
+}
+.card {
+  width: 100%;
+  height: auto;
+  position: relative; /* Required to contain overlay size */
+}
+.card .overlay {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transition: 0.75s ease;
+  display: flex;
+  flex-direction: column;
+  background: rgba(0, 0, 0, 0.8);
+  border-radius: 10px;
+}
+.card .image {
+  opacity: 1;
+  transition: 0.75s ease;
+  backface-visibility: hidden;
+}
+.card:hover .image {
+  opacity: 0.3;
+}
+.card:hover .effect2 {
+  opacity: 1;
+}
+
+.visa-outer {
+  margin-left: -15px;
+  margin-right: -15px;
+  padding: 60px 60px 20px;
+}
+.visa-outer .visa-bx {
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 25%;
+  float: left;
+  margin-bottom: 50px;
+}
+.visa-outer .visa-bx .visa-bx-in {
+  -webkit-box-shadow: 0px 4px 30px 0px rgba(2, 30, 64, 0.5);
+  -moz-box-shadow: 0px 4px 30px 0px rgba(2, 30, 64, 0.5);
+  box-shadow: 0px 4px 30px 0px rgba(2, 30, 64, 0.5);
+  border-radius: 10px;
+  cursor: pointer;
+}
+.visa-outer .visa-bx .visa-bx-in figure {
+  position: relative;
+  -webkit-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+.visa-outer .visa-bx .visa-bx-in figure img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+.visa-outer .visa-bx .visa-bx-in figure small {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  padding: 5px 25px;
+  background-color: #fff;
+  border-radius: 3px;
+  color: #208c1d;
+  font-size: 12px;
+  font-weight: 600;
+}
+.visa-outer .visa-bx .visa-bx-in .hdg-wrap {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.6);
+}
+.visa-outer .visa-bx .visa-bx-in .hdg-wrap:after {
+  position: absolute;
+  content: "";
+  right: 10px;
+  top: 50%;
+  content: "";
+  background: url("https://roundtrip.in/wp-content/uploads/2025/01/ic_visa.png")
+    no-repeat right center;
+  width: 30px;
+  height: 30px;
+  transform: translateY(-50%);
+  background-size: contain;
+}
+.visa-outer .visa-bx .visa-bx-in h3 {
+  color: #303394;
+  font-size: 30px;
+  font-weight: 700;
+  font-family: "DM Sans", Sans-serif;
+}
+.visa-outer .visa-bx .visa-bx-in .dets {
+  position: relative;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.visa-outer .visa-bx .visa-bx-in .dets .dt {
+  float: left;
+  width: 55%;
+}
+.visa-outer .visa-bx .visa-bx-in .dets .dt h4 {
+  color: #ed1e24;
+  font-size: 30px;
+  font-weight: 500;
+  font-family: "DM Sans", Sans-serif;
+}
+.visa-outer .visa-bx .visa-bx-in .dets .dt h4 span {
+  position: relative;
+  color: #646464;
+  font-size: 14px;
+  font-weight: 400;
+  display: block;
+  line-height: 18px;
+  width: 98px;
+}
+.visa-outer .visa-bx .visa-bx-in .dets .dt h4 span:after {
+  position: absolute;
+  content: "";
+  right: 10px;
+  top: 50%;
+  content: "";
+  background: url("https://roundtrip.in/wp-content/uploads/2025/01/ic_calendar2.png")
+    no-repeat right center;
+  width: 14px;
+  height: 13px;
+  transform: translateY(-50%);
+  background-size: contain;
+}
+.visa-outer .visa-bx .visa-bx-in .dets .dt p {
+  color: #646464;
+  font-size: 10px;
+  font-weight: 400;
+  position: relative;
+  font-family: "DM Sans", Sans-serif;
+  width: 182px;
+}
+.visa-outer .visa-bx .visa-bx-in .dets .dt p:after {
+  position: absolute;
+  content: "";
+  right: 10px;
+  top: 50%;
+  content: "";
+  background: url("https://roundtrip.in/wp-content/uploads/2025/01/visaSmaRt.png")
+    no-repeat right center;
+  width: 90px;
+  height: 20px;
+  transform: translateY(-50%);
+  background-size: contain;
+}
+.visa-outer .visa-bx .visa-bx-in .dets .amt {
+  float: left;
+  width: 45%;
+  text-align: right;
+  padding-top: 10px;
+}
+.visa-outer .visa-bx .visa-bx-in .dets .amt h5 {
+  color: #ed1e24;
+  font-size: 34px;
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-family: "DM Sans", Sans-serif;
+}
+.visa-outer .visa-bx .visa-bx-in .dets .amt p {
+  color: #646464;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "DM Sans", Sans-serif;
+}
+.visa-outer .visa-bx .visa-bx-in .dets .amt p span {
+  font-style: italic;
+  display: block;
+  color: #9f9c9c;
+}
+
+.forminator-ui
+  .forminator-select2
+  + .forminator-select
+  .selection
+  .select2-selection--single[role="combobox"] {
+  border-color: #ededed !important;
+}
+.forminator-ui .forminator-checkbox .forminator-checkbox-box {
+  border-color: #d9d9d9 !important;
+  background-color: #d9d9d9 !important;
+  border-radius: 5px !important;
+}
+.forminator-ui .forminator-button-submit {
+  border-radius: 5px !important;
+}
+.forminator-select.forminator-select-dropdown-container--open
+  .forminator-select-dropdown.forminator-dropdown--default {
+  padding: 0 !important;
+}
+.forminator-select-dropdown-container--open
+  .forminator-dropdown--default
+  .select2-results
+  .select2-results__options
+  .select2-results__option.select2-results__option--selected {
+  background-color: #e4e4e4 !important;
+  color: #333 !important;
+}
+.forminator-ui.forminator-custom-form[data-design="default"]
+  select.forminator-select2
+  + .forminator-select
+  .selection
+  span[role="combobox"].select2-selection--single
+  .select2-selection__arrow
+  [class*="forminator-icon-"]:before {
+  color: #d9d9d9 !important;
+}
+
+.banner-visa .banner-top {
+  position: relative;
+  background: url("https://roundtrip.in/wp-content/uploads/2025/01/banner_visa-get-ur-visas.png")
+    no-repeat center center;
+  width: auto;
+  height: 230px;
+  background-size: contain;
+  margin: 50px 0;
+}
+.banner-visa .banner-top .google-rate {
+  position: absolute;
+  top: 30px;
+  left: 40px;
+}
+.banner-visa .banner-top .approval-rate {
+  position: absolute;
+  top: 30px;
+  right: 40px;
+}
+.banner-visa .btm {
+  background: #151b16
+    url("https://roundtrip.in/wp-content/uploads/2025/01/banner_visa-btm.png")
+    no-repeat center bottom;
+  width: 100%;
+  height: 89px;
+  background-size: contain;
+}
+
+@media (max-width: 1699px) {
+  .why-choose p {
+    font-size: 28px !important;
+  }
+  .modal-content,
+  .terms-content {
+    padding: 20px 20px 0 20px;
+  }
+  .modal-departures .clm.clm1 ul.pack li {
+    padding-right: 25px;
+  }
+  .explore-world a.terms {
+    margin-left: 30px;
+  }
+  .modal-departures .why-choose .wrap2 {
+    margin-bottom: 10px;
+  }
+  .visa-outer .visa-bx .visa-bx-in .dets .dt h4 {
+    font-size: 26px;
+  }
+  .visa-outer .visa-bx .visa-bx-in .dets .amt h5 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 1599px) {
+  .modal-content {
+    width: 96%;
+  }
+  .explore-world h3 {
+    font-size: 20px;
+  }
+  .explore-world {
+    padding: 15px !important;
+  }
+  .explore-world p {
+    line-height: 22px !important;
+  }
+  .modal-departures .explore-world {
+    height: auto;
+  }
+  .why-choose .wrap2 {
+    margin-bottom: 10px;
+  }
+  .modal-departures .why-choose {
+    height: 230px;
+  }
+  .modal-departures .item-img .descr {
+    padding: 15px;
+  }
+  .modal-departures .item-img figure img {
+    width: auto;
+    height: 100%;
+  }
+  .modal-departures .departure-top .isClm.clm1 {
+    width: 25%;
+  }
+  .modal-departures .departure-top .isClm.clm2 {
+    width: 50%;
+  }
+  .modal-departures .clm.clm1 ul.pack li {
+    padding-right: 20px;
+  }
+  .why-choose {
+    height: 250px;
+  }
+  .modal-content,
+  .terms-content {
+    padding: 20px 20px 40px 20px;
+  }
+  .modal-departures .why-choose h3 {
+    margin-bottom: 15px !important;
+  }
+  .card h1 {
+    font-size: 32px;
+  }
+  .visa-outer .visa-bx .visa-bx-in .dets .dt h4 {
+    font-size: 22px;
+  }
+  .visa-outer .visa-bx .visa-bx-in h3 {
+    font-size: 26px;
+  }
+  .visa-outer .visa-bx {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .banner-visa .banner-top .approval-rate {
+    top: 0;
+    right: 20px;
+  }
+  .banner-visa .banner-top .google-rate {
+    top: 0;
+    left: 20px;
+  }
+  .banner-visa .banner-top {
+    background-size: 1100px auto;
+  }
+  .banner-visa .banner-top .google-rate img,
+  .banner-visa .banner-top .approval-rate img {
+    width: 120px;
+  }
+  .banner-visa .btm {
+    height: 74px;
+  }
+  .visa-outer {
+    padding: 60px 40px 20px;
+  }
+}
+
+@media (max-width: 1439px) {
+  .modal-departures .clm.clm1 ul.pack li:before {
+    left: 25px;
+  }
+  .modal-departures .clm.clm1 ul.pack li {
+    padding-left: 80px;
+  }
+  .modal-departures .explore-world a.terms {
+    margin-left: 30px;
+  }
+  .explore-world p {
+    font-size: 15px !important;
+    line-height: 20px !important;
+  }
+  .modal-departures .departure-top .amt-details h4 {
+    font-size: 26px;
+  }
+  .why-choose {
+    height: 230px;
+  }
+  .why-choose h3 {
+    margin-bottom: 12px !important;
+  }
+  .explore-world a.terms {
+    margin-left: 18px;
+  }
+  .explore-world {
+    min-height: auto;
+  }
+  .package-desc .hdg {
+    width: 65%;
+  }
+  .package-desc .amt-details {
+    width: 35%;
+  }
+  .why-choose p span {
+    line-height: 23px;
+    margin: 4px 0 10px;
+  }
+  .tab .tab-hdg ul li {
+    font-size: 18px;
+    margin: 0 10px;
+  }
+  .modal-departures .why-choose p span {
+    margin: 0 0 5px;
+  }
+  .modal-departures .why-choose {
+    padding-left: 25px;
+    padding-top: 15px;
+  }
+  .modal-departures .why-choose h3 {
+    margin-bottom: 10px !important;
+  }
+  .modal-departures .why-choose .wrap2 {
+    margin-bottom: 0;
+  }
+  .modal-departures .visa-btm .vClm p a.btn {
+    padding: 10px 5px;
+  }
+  .visa-outer .visa-bx {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33.33%;
+  }
+  .banner-visa .banner-top {
+    background-size: 1055px auto;
+    margin: 40px auto;
+  }
+  .banner-visa .btm {
+    height: 64px;
+  }
+}
+
+@media (max-width: 1365px) {
+  .section-wrap {
+    padding: 30px 0;
+  }
+  .section-wrap-top {
+    padding-top: 30px;
+  }
+  .section-wrap-btm {
+    padding-bottom: 30px;
+  }
+  .explore-world .btn-check a {
+    font-size: 11px;
+  }
+  .explore-world h3 {
+    font-size: 22px !important;
+  }
+  .explore-world p {
+    font-size: 14px !important;
+  }
+  .modal-departures .clm.clm1 ul.pack li:before {
+    left: 15px;
+  }
+  .modal-departures .clm.clm1 ul.pack li {
+    padding-left: 70px;
+    padding-right: 15px;
+  }
+  .why-choose h3 {
+    margin-bottom: 22px !important;
+  }
+  .tab {
+    width: 98%;
+  }
+  .package-desc .hdg h2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .package-desc .hdg h2 span {
+    padding: 0 15px;
+    display: inline-block;
+    width: max-content;
+    line-height: 25px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+  .modal-departures .clm.clm1 ul.pack li {
+    padding-left: 65px;
+  }
+  .modal-departures .clm.clm1 ul.pack li.veg:before {
+    width: 38px;
+    height: 40px;
+  }
+  .modal-departures .clm.clm1 ul.pack li.crusie:before,
+  .modal-departures .clm.clm1 ul.pack li.sight:before {
+    width: 34px;
+    height: 37px;
+  }
+  .modal-departures .explore-world h3 {
+    margin-bottom: 20px;
+  }
+  .modal-departures .explore-world a.terms {
+    margin-left: 8px;
+  }
+  .modal-departures .why-choose h3 {
+    font-size: 20px !important;
+  }
+  .banner-visa .banner-top {
+    background-size: 920px auto;
+  }
+}
+
+@media (max-width: 1279px) {
+  .modal-departures .clm {
+    float: none;
+  }
+  .modal-departures .clm.clm1 {
+    width: 100%;
+    padding-right: 0;
+  }
+  .modal-departures .clm.clm2 {
+    width: 100%;
+  }
+  .modal-departures .explore-world {
+    width: 47%;
+    height: auto;
+    float: left;
+    min-height: 288px;
+  }
+  .modal-departures .why-choose {
+    width: 47%;
+    height: auto;
+    float: left;
+  }
+  .modal-departures .right-panel-inner {
+    display: flex;
+  }
+  .tab .tab-cnt .wrap .clm.clm1 {
+    width: 100%;
+  }
+  .tab .tab-cnt .wrap .clm.clm2 {
+    width: 100%;
+    text-align: center;
+  }
+  .testi-wrap,
+  .why-choose {
+    width: 45%;
+    display: inline-block;
+    vertical-align: text-bottom;
+    margin: 0 15px 30px;
+    border-radius: 20px;
+    background-size: cover;
+    background-position: center top;
+    min-height: 288px;
+  }
+  .why-choose {
+    height: 288px;
+  }
+  .why-choose h3 {
+    margin-bottom: 40px !important;
+  }
+  .explore-world {
+    background-size: cover;
+    background-position: center center;
+    margin: 0 15px;
+  }
+  .desti-slider .item-img {
+    text-align: center;
+  }
+  .desti-slider .item-img img {
+    display: inline-block;
+  }
+  .explore-world {
+    text-align: left;
+  }
+  .modal .close {
+    top: -12px;
+    right: 9px;
+  }
+  .modal-departures .form {
+    margin: 0 auto 45px;
+  }
+  .modal-departures .why-choose {
+    padding-top: 25px;
+    padding-left: 30px;
+  }
+  .modal-departures .visaSmart-ban figure {
+    text-align: center;
+  }
+  .modal-departures .visaSmart-ban figure img {
+    width: auto;
+    padding-right: 0;
+  }
+}
+
+@media (max-width: 1199px) {
+  .tab .tab-hdg ul li {
+    line-height: 24px;
+    padding: 10px 10px 10px 40px;
+  }
+  .testi-wrap {
+    min-height: 288px;
+  }
+  .modal-departures .explore-world {
+    width: 46%;
+  }
+  .modal-departures .why-choose {
+    width: 46%;
+  }
+  .card h1 {
+    font-size: 28px;
+  }
+  .banner-visa .banner-top .google-rate,
+  .banner-visa .banner-top .approval-rate {
+    top: -25px;
+  }
+  .banner-visa .banner-top {
+    margin: 50px auto 0;
+  }
+  .banner-visa .btm {
+    height: 47px;
+  }
+  .visa-outer {
+    padding: 50px 20px 20px;
+  }
+}
+
+@media (max-width: 991px) {
+  .testi-wrap,
+  .why-choose {
+    width: 100%;
+    margin: 0 0 25px;
+    min-height: auto;
+  }
+  .explore-world {
+    margin: 0;
+  }
+  .why-choose {
+    background-position: center top;
+    height: auto;
+    padding: 30px 10px;
+  }
+  .why-choose p span {
+    margin-top: 0;
+  }
+  .package-desc .hdg h2 {
+    font-size: 28px;
+  }
+  .package-desc .amt-details h4 {
+    font-size: 32px;
+  }
+  .package-desc .amt-details h5 {
+    font-size: 20px;
+  }
+  .tab .tab-hdg ul li {
+    text-align: left;
+  }
+  .modal-departures .item-img {
+    flex-direction: column;
+  }
+  .modal-departures .item-img figure,
+  .modal-departures .item-img .descr {
+    width: 100%;
+  }
+  .modal-departures .departure-top .isClm.clm1 {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .modal-departures .departure-top .isClm.clm2 {
+    width: 65%;
+  }
+  .modal-departures .departure-top .isClm.clm3 {
+    width: 35%;
+  }
+  .modal-departures .item-img figure img {
+    width: 100%;
+    height: auto;
+    border-top-left-radius: 13px;
+    border-top-right-radius: 13px;
+  }
+  .modal-departures .item-img .descr {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 13px;
+    border-bottom-left-radius: 13px;
+    margin-top: -10px;
+  }
+  .modal-departures .explore-world {
+    margin: 0 20px 25px;
+  }
+  .modal-departures .why-choose {
+    margin-bottom: 25px;
+  }
+  .modal-departures .clm.clm1 ul.pack li {
+    margin-bottom: 20px;
+  }
+  .fixed-slider .slick-slide {
+    padding: 30px 20px;
+  }
+  .fixed-slider .item-bx .item-desc h3 {
+    font-size: 18px;
+  }
+  .fixed-slider .item-bx .item-desc p.price span {
+    display: block;
+  }
+  .fixed-slider .item-bx .item-desc ul li {
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .btn-primary {
+    font-size: 18px;
+    padding: 6px 10px;
+  }
+  .visa-outer .visa-bx {
+    width: 50%;
+  }
+  .banner-visa .banner-top {
+    background-size: 763px auto;
+  }
+  .banner-visa .btm {
+    background-size: auto 45px;
+  }
+}
+
+@media (max-width: 767px) {
+  .section-wrap {
+    padding: 25px 0;
+  }
+  .section-wrap-top {
+    padding-top: 25px;
+  }
+  .section-wrap-btm {
+    padding-bottom: 25px;
+  }
+  .tab {
+    width: 100%;
+  }
+  .tab .tab-cnt .wrap .clm {
+    padding-left: 10px;
+    padding-right: 10px;
+    float: none;
+  }
+  .package-desc .hdg,
+  .package-desc .amt-details {
+    float: none;
+    width: 100%;
+  }
+  .package-desc .amt-details h6:first-child {
+    padding-right: 0;
+  }
+  .package-desc .amt-details h6,
+  .package-desc .amt-details h5 {
+    text-align: left;
+  }
+  .package-desc .amt-details h4 {
+    font-size: 30px;
+    text-align: left;
+  }
+  .package-desc .hdg {
+    margin-bottom: 20px;
+  }
+  .tab .tab-cnt .line {
+    margin-top: 25px;
+    margin-bottom: 25px;
+  }
+  .tab .tab-cnt p {
+    font-size: 17px;
+    line-height: 32px;
+  }
+  .tab .tab-cnt ul li {
+    font-size: 17px;
+    padding: 0 0 15px 36px;
+  }
+  .accordion .acc-wrap {
+    padding: 15px;
+  }
+  .accordion .acc-wrap > h3 {
+    font-size: 17px !important;
+    line-height: 27px;
+  }
+  .tab .tab-cnt ul li:before {
+    width: 22px;
+    height: 22px;
+  }
+  .tab .tab-cnt ul.notes li:before {
+    width: 22px;
+  }
+  .tab .tab-cnt .btn-primary a {
+    padding: 6px 50px;
+    font-size: 16px;
+  }
+  .desti-slider .slick-prev {
+    left: -8px;
+  }
+  .desti-slider .slick-next {
+    right: -8px;
+  }
+  .desti-slider .slick-arrow {
+    padding: 0;
+    width: 12px;
+  }
+  .tab .tab-hdg ul {
+    padding: 10px 10px 0 !important;
+    display: block;
+  }
+  .tab .tab-hdg ul li {
+    float: none;
+    width: 46%;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+  .tab .tab-hdg ul li:before {
+    top: 5px;
+    width: 27px;
+  }
+  .travel-slider > ul.slick-dots > li button {
+    width: 12px;
+    height: 12px;
+  }
+  .modal-departures .right-panel-inner {
+    flex-direction: column;
+  }
+  .modal-departures .explore-world {
+    width: 100%;
+    margin: 0 0 30px;
+    padding: 20px !important;
+  }
+  .modal-departures .why-choose {
+    width: 100%;
+    height: auto;
+  }
+  .modal-departures .departure-top .isClm.clm2 {
+    width: 100%;
+  }
+  .modal-departures .departure-top .isClm.clm3 {
+    width: 100%;
+  }
+  .modal-departures .departure-top .amt-details h4,
+  .modal-departures .departure-top .amt-details h6,
+  .modal-departures .departure-top .amt-details h5 {
+    text-align: left;
+  }
+  .modal-departures .departure-top p {
+    margin-bottom: 20px;
+  }
+  .modal-departures .clm.clm2 {
+    padding-left: 0;
+  }
+  .modal-departures .clm.clm1 ul.pack li {
+    margin-bottom: 25px;
+  }
+  .modal-departures .clm.clm1 ul.pack li:after {
+    display: none;
+  }
+  .modal-departures .clm.clm1 ul.pack {
+    margin-bottom: 5px;
+  }
+  .modal-departures .explore-world a.terms {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+  .terms-content {
+    width: 94%;
+    height: 90%;
+    overflow-y: auto;
+  }
+  .fixed-slider .slick-arrow {
+    width: 14px;
+  }
+  .modal-content {
+    height: 90%;
+    overflow-y: auto;
+  }
+  .tab-hdg {
+    display: none; /* Hide desktop tabs */
+  }
+  .nav-tabs-mbl {
+    display: block; /* Show the mobile dropdown */
+    margin: 15px 0;
+  }
+  .testi-wrap .testi-slider p {
+    line-height: 26px;
+  }
+  .why-choose h3 {
+    padding-left: 10px;
+  }
+  .modal-departures .why-choose .wrap2 {
+    margin-bottom: 10px;
+  }
+  .card .image {
+    width: 100%;
+  }
+  .card h1 {
+    font-size: 26px;
+  }
+  .modal-departures .visa-btm .vClm {
+    width: 33%;
+    padding-bottom: 20px;
+  }
+  .modal-departures .get-visa .dp,
+  .modal-departures .visa-smart .dp {
+    display: none;
+  }
+  .modal-departures .get-visa .mbl,
+  .modal-departures .visa-smart .mbl {
+    display: block;
+  }
+  .modal-departures .visa-btm .vClm p a.btn {
+    font-size: 12px;
+  }
+  .modal-departures .clm.clm1 {
+    padding-top: 15px;
+  }
+  .modal-departures .visa-btm .vClm:nth-child(4) {
+    padding-left: 0;
+  }
+  .modal-departures .departure-top .isClm.clm1 .share2 a {
+    font-size: 18px;
+  }
+  .visa-outer .visa-bx {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+  .banner-visa .banner-top {
+    background-size: 570px auto;
+    height: 169px;
+    background-image: url("https://roundtrip.in/wp-content/uploads/2025/01/banner_visa-get-ur-visas-mbl.png");
+    margin-top: 60px;
+  }
+  .banner-visa .banner-top .google-rate {
+    left: 10px;
+  }
+  .banner-visa .banner-top .approval-rate {
+    right: 10px;
+  }
+  .banner-visa .banner-top .google-rate img,
+  .banner-visa .banner-top .approval-rate img {
+    width: 110px;
+  }
+  .banner-visa .banner-top .google-rate,
+  .banner-visa .banner-top .approval-rate {
+    top: -43px;
+  }
+  .banner-visa .btm {
+    background-size: auto 34px;
+    height: 37px;
+  }
+  .visa-outer {
+    padding: 40px 20px 20px;
+  }
+  .modal .close {
+    position: fixed;
+    top: 27px;
+    right: 12px;
+  }
+}
+
+@media (max-width: 640px) {
+  .fixed-slider .item-bx figure {
+    text-align: center;
+  }
+  .fixed-slider .item-bx figure img {
+    display: inline-block;
+  }
+  .fixed-slider .item-bx .item-desc ul li {
+    width: 48%;
+  }
+  .fixed-slider .item-bx .item-desc p.price span {
+    display: inline-block;
+  }
+}
+
+@media (max-width: 575px) {
+  .explore-world .btn-wrap {
+    flex-direction: column;
+  }
+  .explore-world a.terms {
+    margin-left: 0;
+    margin-top: 15px;
+  }
+  .package-desc .hdg h2 {
+    font-size: 26px;
+  }
+  .package-desc .hdg .share a {
+    font-size: 18px;
+  }
+  .package-desc .amt-details h4 {
+    font-size: 28px;
+  }
+  .tab .tab-cnt h3 {
+    font-size: 22px;
+  }
+  .tab .tab-hdg ul {
+    text-align: center;
+    padding-top: 15px;
+  }
+  .tab .tab-hdg ul li {
+    float: none;
+    width: auto;
+    display: inline-block;
+    margin-bottom: 15px;
+  }
+  .tab .tab-cnt {
+    margin-top: -6px;
+    padding: 44px 25px 30px;
+  }
+  .fixed-slider .item-bx .item-desc ul li {
+    width: 100%;
+  }
+  .fixed-slider .item-bx .item-desc p.price span {
+    display: block;
+  }
+  .btn-primary {
+    font-size: 16px;
+  }
+  .fixed-slider .item-bx .item-desc p {
+    font-size: 16px;
+  }
+  .tab .tab-cnt.sinl {
+    padding-top: 30px;
+  }
+  .modal-departures .why-choose h3 {
+    margin-bottom: 20px !important;
+  }
+  .modal-departures .visa-btm .vClm {
+    width: 50%;
+  }
+  .modal-departures .visa-btm .vClm:nth-child(3) {
+    padding-left: 0;
+  }
+  .modal-departures .visa-btm .vClm:nth-child(4) {
+    padding-left: 15px;
+  }
+  .modal-departures .visa-btm .vClm:nth-child(5) {
+    padding-left: 0;
+    width: 100%;
+    text-align: center;
+  }
+  .banner-visa .banner-top {
+    background-size: 425px auto;
+  }
+  .banner-visa .btm {
+    background-size: auto 25px;
+    height: 25px;
+  }
+  .modal .close {
+    top: 36px;
+    right: 8px;
+  }
+}
+
+@media (max-width: 479px) {
+  .why-choose {
+    background-position: left -20px top;
+  }
+}
+
+@media (max-width: 413px) {
+  .modal-content {
+    padding: 15px;
+  }
+  .why-choose {
+    background-size: 100% auto;
+    background-position: top center;
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .why-choose h3 {
+    font-size: 20px !important;
+    margin-bottom: 17px !important;
+  }
+  .modal-departures .why-choose {
+    width: 100%;
+    height: auto;
+    border-radius: 13px;
+    background-size: 374px auto;
+    background-position: center center;
+    border-radius: 20px;
+    padding: 15px 0 0 20px;
+    margin: 0;
+  }
+  .fixed-slider .item-bx .item-desc {
+    padding: 0 15px 25px;
+  }
+  .fixed-slider .item-bx .item-desc p.price span {
+    font-size: 20px;
+  }
+  .why-choose p {
+    font-size: 23px !important;
+  }
+  .why-choose .wrap2 {
+    margin-bottom: 0;
+  }
+  .modal-departures .why-choose h3 {
+    margin-bottom: 20px !important;
+  }
+  .modal-departures .why-choose p {
+    line-height: 25px;
+  }
+  .modal-departures .why-choose .wrap2 {
+    margin-bottom: 15px;
+  }
+  .card h1 {
+    font-size: 22px;
+  }
+  .banner-visa .banner-top {
+    background-size: 364px auto;
+    height: 130px;
+  }
+}
+
+@media (max-width: 374px) {
+  .modal-departures .why-choos {
+    background-size: 350px auto;
+  }
+  .why-choose {
+    padding-top: 15px;
+    padding-bottom: 0;
+  }
+  .why-choose h3 {
+    margin-bottom: 10px !important;
+  }
+  .why-choose p span {
+    line-height: 18px;
+  }
+}
